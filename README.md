@@ -8,7 +8,7 @@ Pressing each button will send an HTTP request with the corresponding configurat
 
 On a normal unintercepted device, every button should always immediately go green. On a device whose HTTPS is being intercepted (e.g. by [HTTP Toolkit](https://httptoolkit.tech/android)) all except the first button will go red, unless you've used Frida or similar to disable certificate pinning.
 
-<img src="https://raw.githubusercontent.com/vinaykumar2197/ssl-pinning-demo-app/master/screenshot.png" width="600" height="400">
+<img src="https://raw.githubusercontent.com/vinaykumar2197/ssl-pinning-demo-app/master/screenshot.png" width="300" height="400">
 
 Let's talk about ssl pinning in android.
 
